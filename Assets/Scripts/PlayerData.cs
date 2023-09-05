@@ -7,7 +7,8 @@ public class PlayerData
     public int Energy;
     public int Lives = 3;
     public float Fuel = 200;
-    public Vector3 PlayerPosition;
+    
+    
     //reset method for new game from main menu
     public void Reset()
     {

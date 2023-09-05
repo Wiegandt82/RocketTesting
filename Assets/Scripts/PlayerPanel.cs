@@ -22,12 +22,12 @@ public class PlayerPanel : MonoBehaviour
         UpdateLives();
     }
 
-    void UpdateLives()
+    public void UpdateLives()
     {
         _livesText.SetText("Lives: " + _player.Lives.ToString());
     }
 
-    void UpdateEnergy()
+    public void UpdateEnergy()
     {
         _scoreText.SetText("Energy: " + _player.Energy.ToString());
     }
