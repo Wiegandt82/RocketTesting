@@ -31,5 +31,7 @@ public class EasySave : MonoBehaviour
         Debug.Log("Energy: " + _playerData.Energy);
         Debug.Log("Lives: " + _playerData.Lives);
         Debug.Log("Fuel: " + _playerData.Fuel);
+        Debug.Log("Position: " + _player.transform.position);
+        Debug.Log("Rotation: " + _player.transform.rotation);
     }
 }
