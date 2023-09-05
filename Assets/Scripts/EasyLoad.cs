@@ -7,7 +7,7 @@ public class EasyLoad : MonoBehaviour
     PlayerData _playerData;
     Player _player;
     PlayerPanel _playerPanel;
-    public string sceneToLoad;
+    string sceneToLoad;
     PauseMenu _pauseMenu;
 
     void Awake()
