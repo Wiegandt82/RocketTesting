@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EasySave : MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class EasySave : MonoBehaviour
         //Save player postion and rotation
         ES3.Save("Player position", _player.transform.position);
         ES3.Save("Player rotation", _player.transform.rotation);
+
+        ES3.Save("Saved Scene", SceneManager.GetActiveScene().name);
 
         Debug.Log("Save done");
         Debug.Log("Energy: " + _playerData.Energy);
